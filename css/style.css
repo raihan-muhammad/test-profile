@@ -39,7 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #3a5091;
+  color: #191a1e;
 }
 
 nav a {
@@ -51,13 +51,14 @@ header {
 }
 
 .nama-brand {
-  color: #3a5091;
+  color: #191a1e;
 }
 
 /* SECTION HERO */
 
 .section-hero {
   display: flex;
+  margin-top: 7em;
 }
 
 .hero-kiri {
@@ -84,6 +85,11 @@ header {
   margin-top: 1.5em;
 }
 
+.hero-kiri .btn-hero:hover {
+  transition: 0.4s ease;
+  padding-right: 5em;
+}
+
 .hero-kanan {
   width: 50%;
   flex-grow: 1;
@@ -95,3 +101,7 @@ header {
 }
 
 /* END SECTION HERO */
+
+/* SECTION ABOUT */
+
+/* END SECTION ABOUT */
