@@ -105,3 +105,38 @@ header {
 /* SECTION ABOUT */
 
 /* END SECTION ABOUT */
+
+/* RESPONSIVE SECTION */
+
+@media screen and (max-width: 970px) {
+  nav ul {
+    display: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero-kanan {
+    display: none;
+  }
+
+  .section-hero {
+    margin-top: 0;
+  }
+
+  .hero-kiri .hero-title {
+    font-size: 3rem;
+  }
+
+  nav {
+    padding: 1.5em 15%;
+    background-color: #4798de;
+  }
+
+  .nama-brand {
+    color: #ffffff;
+  }
+}
+
+/* END RESPONSIVE SECTION */
