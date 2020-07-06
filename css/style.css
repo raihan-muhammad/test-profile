@@ -131,11 +131,29 @@ header {
 
   nav {
     padding: 1.5em 15%;
-    background-color: #4798de;
+    background-color: orange;
+  }
+
+  .hero-kiri {
+    color: #fff;
+  }
+
+  .hero-kiri .hero-title {
+    color: #fff;
+  }
+
+  .hero-kiri .btn-hero {
+    background-color: orange;
   }
 
   .nama-brand {
     color: #ffffff;
+  }
+
+  header {
+    background-color: #4798de;
+    height: 70vh;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
   }
 }
 
