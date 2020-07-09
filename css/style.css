@@ -104,6 +104,41 @@ header {
 
 /* SECTION ABOUT */
 
+.section-profile {
+  display: flex;
+  padding: 0 10%;
+}
+
+.section-profile .profile-kiri {
+  flex-grow: 1;
+  width: 50%;
+}
+
+.section-profile .profile-kiri img {
+  width: 45em;
+  height: 45em;
+  transform: scale(1);
+}
+
+.section-profile .profile-kiri img:hover {
+  transform: scale(1.3);
+  transition: all 0.7s ease;
+}
+
+.section-profile .profile-kanan {
+  flex-grow: 1;
+  width: 50%;
+  margin-top: 25vh;
+}
+
+.section-profile .profile-kanan h1 {
+  font-size: 3.5rem;
+}
+
+.section-profile .profile-kanan p {
+  font-size: 1.6rem;
+}
+
 /* END SECTION ABOUT */
 
 /* RESPONSIVE SECTION */
